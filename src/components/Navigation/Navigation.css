@@ -1,0 +1,68 @@
+.navbar {
+    padding: 1.5rem;
+}
+
+#logo {
+    width: 200px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.nav-link:hover {
+    color: #958af0;
+}
+
+.sign-in {
+    width: 30%;
+    padding: 5px;
+    text-align: center;
+    background-color: #958af0;
+    border-radius: 25px;
+}
+
+.sign-in:hover {
+    color: #3d4855;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+    color: #958af0;
+    border: 1px solid #958af0;
+}
+
+#resp-border {
+    border-top: 2px solid #fff;
+}
+
+@media(min-width:992px) {
+    #resp-border {
+        border-top: none;
+    }
+
+    .navbar-nav {
+        gap: 15px;
+    }
+
+    .nav-link {
+        border-bottom: 2px solid transparent;
+        transition: border 0.4s ease-in;
+    }
+
+    .nav-link:hover {
+        border-color: #958af0;
+        color: #958af0;
+        cursor: pointer;
+    }
+
+    .sign-in {
+        width: 100%;
+        transition: all 0.2s ease-in;
+    }
+
+    .sign-in:hover {
+        color: #3d4855;
+    }
+}
