@@ -1,4 +1,5 @@
 import React from "react";
+import Balance from './components/Calculator Page/Balance';
 
 const Calculator = () => {
     return (
