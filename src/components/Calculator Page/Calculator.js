@@ -1,4 +1,5 @@
 import React from "react";
+import Balance from './components/Calculator Page/Balance';
 
 const Calculator = () => {
     return (
@@ -10,7 +11,7 @@ const Calculator = () => {
                         <div className="col-8 col-sm-6">
                             <div className="row">
                                 <div className="col-8 col-sm-6">Col 1</div>
-                                <div className="col-4 col-sm-6">Col 2</div>
+                                <div className="col-4 col-sm-6">Balance</div>
                             </div>
                         </div>
                         <div className="col-4 col-sm-6">
