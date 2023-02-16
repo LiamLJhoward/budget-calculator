@@ -10,3 +10,5 @@ export const Balance = () => {
     </div>
   )
 }
+
+export default Balance;
