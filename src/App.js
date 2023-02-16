@@ -1,14 +1,12 @@
 import './App.css';
 import Navigation from './components/Navigation/Navigation';
-import Calculator from './components/Calculator Page/Calculator';
-import { Balance } from './components/Calculator Page/Balance';
+import Calculator from './components/Calculator/Calculator';
 
 function App() {
   return (
     <div>
       <Navigation />
       <Calculator />
-      <Balance />
     </div>
   );
 }
