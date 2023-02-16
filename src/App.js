@@ -1,6 +1,6 @@
 import './App.css';
 import Navigation from './components/Navigation/Navigation';
-import Calculator from './components/Calculator Page/Calculator';
+import Calculator from './components/Calculator/Calculator';
 
 function App() {
   return (
