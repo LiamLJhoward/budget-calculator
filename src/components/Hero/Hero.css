@@ -1,0 +1,92 @@
+.hero-content {
+    margin-top: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./chart.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.hero-title {
+    text-align: center;
+    color: #958af0;
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.hero-subtitle {
+    margin-top: 1rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.hero-button {
+    padding: 0.8rem;
+    background-color: #958af0;
+    color: #fff;
+    border-radius: 20px;
+    border-color: #958af0;
+    border-style: none;
+    transition: all 0.1s ease-in;
+}
+
+.hero-button:hover {
+    background-color: #7f73d3;
+}
+
+@media(min-width: 992px) {
+    .hero {
+        border-bottom: 10px solid #958af0;
+    }
+
+    .hero-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-img img {
+        width: 80%;
+        display: flex;
+        margin: auto;
+    }
+
+    .hero-content {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .hero-button {
+        width: 8em;
+    }
+}
+
+@media(min-width: 1280px) {
+    .hero-img img {
+        width: 58%;
+    }
+
+    .hero-title {
+        font-size: 2.6rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.8rem;
+    }
+
+    .hero-button {
+        width: 8em;
+    }
+}
