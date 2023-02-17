@@ -38,6 +38,10 @@
 }
 
 @media(min-width:992px) {
+    #logo {
+        width: 250px;
+    }
+
     #resp-border {
         border-top: none;
     }
