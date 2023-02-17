@@ -1,3 +1,7 @@
+.hero {
+    border-bottom: 5px solid #958af0;
+}
+
 .hero-content {
     margin-top: 1.4rem;
     display: flex;
@@ -26,6 +30,7 @@
 
 .hero-button {
     padding: 0.8rem;
+    margin: 50px;
     background-color: #958af0;
     color: #fff;
     border-radius: 20px;
