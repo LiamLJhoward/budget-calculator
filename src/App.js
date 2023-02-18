@@ -4,7 +4,7 @@ import Hero from './components/Hero/Hero';
 import CTA from './components/CTA Section/CTA';
 import Calculator from './components/Calculator/Calculator';
 import Balance from './components/Calculator/Balance/Balance';
-import Reviews from './components/Reviews/Reviews';
+import Testimonials from './components/Reviews/Testimonials';
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       {/* <Calculator /> */}
       <Hero />
       <CTA />
-      <Reviews />
+      <Testimonials />
     </div>
   );
 }
