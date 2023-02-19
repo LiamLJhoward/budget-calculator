@@ -5,6 +5,7 @@ import CTA from './components/CTA Section/CTA';
 import Calculator from './components/Calculator/Calculator';
 import Balance from './components/Calculator/Balance/Balance';
 import Testimonials from './components/Reviews/Testimonials';
+import Inpute from './components/Input/Inpute';
 
 
 function App() {
