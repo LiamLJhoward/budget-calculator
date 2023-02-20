@@ -23,7 +23,7 @@ const Navigation = () => {
                             <a class="nav-link" href="#calculator">Calculator</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#reviews">Reviews</a>
+                            <a class="nav-link" href="#reviews">Testimonials</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#tips">Tips & Tricks</a>
