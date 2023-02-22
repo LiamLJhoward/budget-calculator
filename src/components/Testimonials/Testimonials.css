@@ -1,96 +1,148 @@
-.testimonials-header {
+.testimonial-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.testimonial-header {
+    margin-bottom: 4rem;
     text-align: center;
-    padding-top: 7rem;
 }
 
-.testimonials-heading {
+.test-headline {
     color: #958af0;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
-.testimonials-subheading {
+.test-title {
     color: #fff;
+    font-size: 2.5rem;
 }
 
-.testimonials-grid {
-    margin-top: 2rem;
-}
-
-.testimonial-card {
+.testimonial-block {
+    width: 90%;
     background-color: #958af0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     border-radius: 20px;
 }
 
-.testimonial-card-content {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+.text-content {
+    padding: 15px;
 }
 
 .quote {
-    width: 80px;
     position: absolute;
-    z-index: 0;
 }
 
-.card-title {
-    padding: 20px;
+.review {
+    padding: 10px 0 0 10px;
     color: #fff;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
-.card-subtitle {
-    padding-left: 20px;
+.client-name {
+    padding-left: 10px;
     color: #3d4855;
 }
 
-.testimonial-card-image {
-    max-width: 100%;
+.image-content {
     padding: 0;
 }
 
-.card-image {
+.profile-image {
     width: 100%;
     border-radius: 0 0 20px 20px;
 }
 
-@media(min-width:600px) {
-    .testimonial-card-content {
-        display: flex;
-        flex-direction: row;
+@media(min-width: 768px) {
+    .testimonial-section {
+        margin-top: 15%;
     }
 
-    .card-title {
-        padding: 15px 0 0 15px;
+    .testimonial-header {
+        text-align: center;
+    }
+
+    .test-headline {
+        text-align: center;
+    }
+
+    .test-title {
+        text-align: center;
+    }
+
+    .review {
         font-size: 1rem;
     }
 
-    .card-subtitle {
-        padding: 15px 0 0 15px;
-        font-size: 1rem;
+    .client-name {
+        font-size: 0.9rem;
     }
 
-    .card-image {
-        float: right;
-        width: 250px;
+    .profile-image {
         border-radius: 0 20px 20px 0;
     }
 }
 
-@media (min-width:992px) {
-    .testimonial-card-left {
-        width: 80%;
+@media (min-width: 992px) {
+    .testimonial-section {
+        margin-top: 10%;
     }
 
+    .testimonial-block {
+        width: auto;
+        float: none;
+    }
 
-    .card-title {
-        padding: 20px;
+    .review1,
+    .review2,
+    .review3 {
+        width: auto;
+    }
+
+    .review {
         font-size: 1.3rem;
     }
 
-    .card-subtitle {
-        padding: 20px;
+    .client-name {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .testimonial-block {
+        width: 80%;
+        float: left;
+    }
+
+    .profile-image {
+        width: 100%;
+        float: right;
+    }
+
+    .review {
+        padding: 30px;
+        font-size: 1.4rem;
+    }
+
+    .client-name {
+        padding-left: 30px;
+        font-size: 1.2rem;
+    }
+}
+
+@media(min-width: 1400px) {
+    .review {
+        font-size: 1.4rem;
+    }
+
+    .profile-image {
+        width: 80%;
+    }
+
+    .client-name {
+        font-size: 1.2rem;
     }
 }

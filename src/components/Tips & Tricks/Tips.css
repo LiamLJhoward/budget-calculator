@@ -1,0 +1,58 @@
+.tips-header {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.tips-headline {
+    color: #958af0;
+    font-size: 1.3rem;
+}
+
+.tips-title {
+    color: #fff;
+}
+
+.card {
+    margin-top: 4rem;
+    background: none;
+    border: none;
+    gap: 1.2rem;
+}
+
+.card-container {
+    height: 100%;
+    padding: 20px;
+    background-color: #958af0;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.card-container h3 {
+    color: #262626;
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+@media(min-width: 600px) {
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 992px) {
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(min-width: 1280px) {
+    .card {
+        margin: 4rem auto 0;
+        width: 80%;
+    }
+}
