@@ -1,29 +1,55 @@
 li {
-
     list-style: none;
 }
 
-.transaction-container{
-
+.transaction-container {
     background-color: #3D4855;
     color: white;
 }
 
 .list {
-
-    background-color: rgb(58, 54, 94);opacity:0.4;
+    background-color: rgb(58, 54, 94);
+    opacity: 0.4;
     padding: 10px;
-    
-
-    
 }
 
-.list-text{
+.list-text {
     color: white;
-    
 }
 
 .border-purple {
+    border-color: rgb(58, 54, 94);
+}
 
-    border-color: rgb(58, 54, 94) ;
+.balance {
+    color: #fff;
+    text-align: center;
+}
+
+.spending-content {
+    height: 15vh;
+    margin-top: 1.5rem;
+    background-color: #4c586b;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expense,
+.income {
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.income-value,
+.expense-value {
+    color: #958af0;
+    font-weight: 700;
+}
+
+.border-middle {
+    border-right: 2px solid #958af0;
 }
