@@ -37,13 +37,13 @@ const Inpute = () => {
       <div className="container">
 
         <div className="row list">
-          <div className="col-sm-4 d-flex align-items-center  justify-content-start">
+          <div className="col-4 d-flex align-items-center  justify-content-start">
             <p className="list-text mb-0">{info.date}</p>
           </div>
-          <div className="col-sm-4 d-flex align-items-center  justify-content-start">
+          <div className="col-4 d-flex align-items-center  justify-content-start">
             <p className="list-text mb-0">{info.source}</p>
           </div>
-          <div className="col-sm-4 d-flex align-items-center  justify-content-end">
+          <div className="col-4 d-flex align-items-center  justify-content-end">
             <p className="list-text mb-0 ">${info.amount}</p>
           </div>
         </div>
@@ -143,6 +143,24 @@ const Inpute = () => {
               </div>
               {transactionList}
             </ul>
+        <div className="">
+        <button onClick={handleSubmitIncome} className="m-2">Income</button>
+        <button onClick={handleSubmitExpenses}  className="m-2">Expenses</button>
+        </div>
+       
+      </form>
+      
+      <div>
+        <ul className="container transaction-container mt-5 p-5 ">
+        <div className="row">
+          <div className="col-4 d-flex align-items-center  justify-content-start">
+            <p className="mb-0 px-3">Date</p>
+          </div>
+          <div className="col-4 d-flex align-items-center  justify-content-start">
+            <p  className="mb-0 px-3">Source</p>
+          </div>
+          <div className="col-4 d-flex align-items-center  justify-content-end">
+            <p  className="mb-0 ">Amount</p>
           </div>
         </div>
       </div>
