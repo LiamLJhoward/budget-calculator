@@ -6,6 +6,7 @@ import Calculator from './components/Calculator/Calculator';
 import Balance from './components/Calculator/Balance/Balance';
 import Testimonials from './components/Testimonials/Testimonials';
 import Tips from './components/Tips & Tricks/Tips';
+import Footer from './components/Footer/Footer';
 import Inpute from './components/Input/Inpute';
 
 
@@ -18,6 +19,7 @@ function App() {
       <CTA />
       <Testimonials />
       <Tips />
+      <Footer />
     </div>
   );
 }

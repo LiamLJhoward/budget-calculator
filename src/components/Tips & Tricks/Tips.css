@@ -13,7 +13,7 @@
 }
 
 .card {
-    margin-top: 4rem;
+    margin: 4rem 0;
     background: none;
     border: none;
     gap: 1.2rem;
@@ -52,7 +52,7 @@
 
 @media(min-width: 1280px) {
     .card {
-        margin: 4rem auto 0;
+        margin: 4rem auto 4rem;
         width: 80%;
     }
 }
