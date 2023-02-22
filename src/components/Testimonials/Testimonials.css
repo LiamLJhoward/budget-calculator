@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .testimonial-header {
-    margin-bottom: 1.6rem;
+    margin-bottom: 4rem;
+    text-align: center;
 }
 
 .test-headline {
@@ -117,17 +118,31 @@
     }
 
     .profile-image {
-        width: 50%;
+        width: 100%;
         float: right;
     }
 
     .review {
         padding: 30px;
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
 
     .client-name {
         padding-left: 30px;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media(min-width: 1400px) {
+    .review {
+        font-size: 1.4rem;
+    }
+
+    .profile-image {
+        width: 80%;
+    }
+
+    .client-name {
+        font-size: 1.2rem;
     }
 }
