@@ -2,3 +2,28 @@ li {
 
     list-style: none;
 }
+
+.transaction-container{
+
+    background-color: #3D4855;
+    color: white;
+}
+
+.list {
+
+    background-color: rgb(58, 54, 94);opacity:0.4;
+    padding: 10px;
+    
+
+    
+}
+
+.list-text{
+    color: white;
+    
+}
+
+.border-purple {
+
+    border-color: rgb(58, 54, 94) ;
+}
