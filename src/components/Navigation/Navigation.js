@@ -29,9 +29,6 @@ const Navigation = () => {
                             <a class="nav-link" href="#tips">Tips & Tricks</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact Us</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link sign-in" href="#SIGNIN">Sign In</a>
                         </li>
                     </ul>
