@@ -1,6 +1,8 @@
 import React from "react";
 import HeroImg from './heroimg.webp';
 import './Hero.css';
+import CTA from "../CTA Section/CTA";
+import Testimonials from "../Testimonials/Testimonials";
 
 
 const Hero = () => {
@@ -16,6 +18,7 @@ const Hero = () => {
                     <button className="hero-button">Get Started</button>
                 </div>
             </div>
+        
         </div>
     )
 }

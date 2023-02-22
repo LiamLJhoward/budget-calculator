@@ -16,6 +16,7 @@ function App() {
       <Hero />
       <CTA />
       <Testimonials />
+      
     </div>
   );
 }
