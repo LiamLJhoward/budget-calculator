@@ -131,36 +131,18 @@ const Inpute = () => {
           <div>
             <ul className="container transaction-container mt-5 p-5 ">
               <div className="row">
-                <div className="col-sm-4 d-flex align-items-center  justify-content-start">
+                <div className="col-4 d-flex align-items-center  justify-content-start">
                   <p className="mb-0 px-3">Date</p>
                 </div>
-                <div className="col-sm-4 d-flex align-items-center  justify-content-start">
+                <div className="col-4 d-flex align-items-center  justify-content-start">
                   <p className="mb-0 px-3">Source</p>
                 </div>
-                <div className="col-sm-4 d-flex align-items-center  justify-content-end">
+                <div className="col-4 d-flex align-items-center  justify-content-end">
                   <p className="mb-0 ">Amount</p>
                 </div>
               </div>
               {transactionList}
             </ul>
-        <div className="">
-        <button onClick={handleSubmitIncome} className="m-2">Income</button>
-        <button onClick={handleSubmitExpenses}  className="m-2">Expenses</button>
-        </div>
-       
-      </form>
-      
-      <div>
-        <ul className="container transaction-container mt-5 p-5 ">
-        <div className="row">
-          <div className="col-4 d-flex align-items-center  justify-content-start">
-            <p className="mb-0 px-3">Date</p>
-          </div>
-          <div className="col-4 d-flex align-items-center  justify-content-start">
-            <p  className="mb-0 px-3">Source</p>
-          </div>
-          <div className="col-4 d-flex align-items-center  justify-content-end">
-            <p  className="mb-0 ">Amount</p>
           </div>
         </div>
       </div>
