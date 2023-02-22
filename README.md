@@ -1,4 +1,4 @@
-# Budget-Calculator
+# MoneyPlanner
  ### Link
  
  [MoneyPlanner](https://mnyplnr.netlify.app "MoneyPlanner")
