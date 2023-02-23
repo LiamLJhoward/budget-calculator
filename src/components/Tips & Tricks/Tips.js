@@ -3,7 +3,7 @@ import './Tips.css';
 
 const Tips = () => {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid" id="tips">
             <div className="tips-header">
                 <p className="tips-headline">TIPS & TRICKS</p>
                 <h1 className="tips-title">Maximize your budget and minimize your stress with these expert tips and tricks.</h1>

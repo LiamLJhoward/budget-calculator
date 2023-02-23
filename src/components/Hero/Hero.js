@@ -18,7 +18,7 @@ const Hero = () => {
                     <button className="hero-button">Get Started</button>
                 </div>
             </div>
-        
+
         </div>
     )
 }

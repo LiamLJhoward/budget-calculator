@@ -7,7 +7,7 @@ import TestimonialImg3 from './testimonial3.svg';
 
 const Testimonials = () => {
     return (
-        <div className="container-fluid testimonial-section">
+        <div className="container-fluid testimonial-section" id='testimonials'>
             <div className="testimonial-header">
                 <p className="test-headline">REVIEWS</p>
                 <h1 className="test-title">See what our users have to say about our budget tracker</h1>
