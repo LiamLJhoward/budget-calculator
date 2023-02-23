@@ -52,7 +52,11 @@ const Inpute = () => {
   ));
 
   return (
-    <div className="container">
+    <div className="container" id="calculator">
+      <div className="calculator-header">
+        <p className='calc-headline'>Money Planner Calculator</p>
+        <h1 className='calc-title'>Try out our budget calculator and organise your payments</h1>
+      </div>
       <div className="row">
         <div className="col-sm-12 col-md-6 order-md-2 wallet">
           <h2 className="balance">Balance : {balance} </h2>
