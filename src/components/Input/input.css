@@ -2,23 +2,8 @@ li {
     list-style: none;
 }
 
-.transaction-container {
-    background-color: #3D4855;
-    color: white;
-}
-
 .list {
-    background-color: rgb(58, 54, 94);
-    opacity: 0.4;
     padding: 10px;
-}
-
-.list-text {
-    color: white;
-}
-
-.border-purple {
-    border-color: rgb(58, 54, 94);
 }
 
 .balance {
@@ -52,4 +37,49 @@ li {
 
 .border-middle {
     border-right: 2px solid #958af0;
+}
+
+.user-transactions {
+    background-color: #4c586b;
+    border-radius: 20px;
+}
+
+.user-input {
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input-data {
+    background-color: #4c586b;
+    border: 2px solid #958af0;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.user-button {
+    display: flex;
+    justify-content: center;
+}
+
+.user-button button {
+    background-color: #958af0;
+    color: #fff;
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px;
+    transition: all 0.2s ease-in;
+}
+
+.user-button button:hover {
+    background-color: #7f73d3;
+}
+
+.transaction-container {
+    padding: 15px;
+    background-color: #3D4855;
+    border-radius: 20px;
+    color: #fff;
 }

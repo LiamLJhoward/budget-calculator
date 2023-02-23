@@ -3,7 +3,7 @@ import './input.css'
 
 
 const Inpute = () => {
-  const [source, setSource] = useState("rent");
+  const [source, setSource] = useState("");
   const [amount, setAmount] = useState("");
   const [date, setDate] = useState("");
   const [balance, setBalance] = useState(0);
@@ -44,7 +44,7 @@ const Inpute = () => {
             <p className="list-text mb-0">{info.source}</p>
           </div>
           <div className="col-4 d-flex align-items-center  justify-content-end">
-            <p className="list-text mb-0 ">${info.amount}</p>
+            <p className="list-text mb-0">£{info.amount}</p>
           </div>
         </div>
       </div>
@@ -72,47 +72,47 @@ const Inpute = () => {
         <div className="col-sm-12 col-md-6 order-md-1 user-transactions">
           <form>
             <div className="container">
-              <div className="row">
+              <div className="row user-input">
                 <label className="col-sm-6" for="source">
                   {" "}
                   Expense type{" "}
                 </label>
                 <select
-                  className="form-control col-sm-6"
+                  className="form-control col-sm-6 input-data"
                   id="source"
                   value={source}
                   placeholder="What is this for?"
                   onChange={(e) => setSource(e.target.value)}
                 >
-                  <option value="rent">rent</option>
-                  <option value="gift">gift</option>
-                  <option value="travel">travel</option>
-                  <option value="electricity">electricity</option>
-                  <option value="groceries">groceries</option>
-                  <option value="others">others</option>
+                  <option value="Rent">Rent</option>
+                  <option value="Gift">Gift</option>
+                  <option value="Travel">Travel</option>
+                  <option value="Electricity">Electricity</option>
+                  <option value="Groceries">Groceries</option>
+                  <option value="Others">Others</option>
                 </select>
               </div>
-              <div className="row">
+              <div className="row user-input">
                 <label className="col-sm-6" for="value">
                   {" "}
                   Value{" "}
                 </label>
                 <input
-                  className="form-control col-sm-6"
+                  className="form-control col-sm-6 input-data"
                   type="text"
                   id="value"
                   value={amount}
-                  placeholder="Inpute a value"
+                  placeholder="Input a value"
                   onChange={(e) => setAmount(e.target.value)}
                 />
               </div>
-              <div className="row">
+              <div className="row user-input">
                 <div className="col-sm-6" for="date">
                   {" "}
                   What day is this?
                 </div>
                 <input
-                  className="form-control col-sm-6 border border-purple "
+                  className="form-control col-sm-6 input-data"
                   type="date"
                   id="date"
                   value={date}
@@ -121,7 +121,7 @@ const Inpute = () => {
                 />
               </div>
             </div>
-            <div className="">
+            <div className="user-button">
               <button onClick={handleSubmitIncome} className="m-2">Income</button>
               <button onClick={handleSubmitExpenses} className="m-2">Expenses</button>
             </div>
@@ -129,7 +129,7 @@ const Inpute = () => {
           </form>
 
           <div>
-            <ul className="container transaction-container mt-5 p-5 ">
+            <ul className="container transaction-container mt-5 ">
               <div className="row">
                 <div className="col-4 d-flex align-items-center  justify-content-start">
                   <p className="mb-0 px-3">Date</p>
